@@ -1,0 +1,21 @@
+<resources md5="a80ce48edf950a11af72e76aba792ba3">
+  <movie name="alpha_test/movie" md5="d375526a61ff2e6ebdea3ca8f74acfb3" frameRate="24">
+    <layer name="Layer 1">
+      <kf duration="29" ref="alpha_test/sprite" loc="94.15,96.9" pivot="94.15,96.9"/>
+      <kf duration="30" ref="alpha_test/sprite" loc="94.15,96.9" pivot="94.15,96.9" alpha="0"/>
+      <kf duration="1" ref="alpha_test/sprite" loc="94.15,96.9" pivot="94.15,96.9"/>
+    </layer>
+  </movie>
+  <textureGroups>
+    <textureGroup retina="false">
+      <atlas file="main/alpha_test/atlas0.png">
+        <texture name="alpha_test/sprite" rect="0,0,190,195" offset="-0.5,-0.5" md5="4026d12fdc872be79c37acf6a14bc82e"/>
+      </atlas>
+    </textureGroup>
+    <textureGroup retina="true">
+      <atlas file="main/alpha_test/atlas0@2x.png">
+        <texture name="alpha_test/sprite" rect="0,0,379,390" offset="-1,-1" md5="4026d12fdc872be79c37acf6a14bc82e"/>
+      </atlas>
+    </textureGroup>
+  </textureGroups>
+</resources>

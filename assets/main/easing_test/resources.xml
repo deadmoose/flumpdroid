@@ -1,0 +1,40 @@
+<resources md5="36caf1bf86aa841973907009644f056e">
+  <movie name="easing_test/movie" md5="0c8d22532129b52396c5dba43c95c61f" frameRate="24">
+    <layer name="Layer 3 copy">
+      <kf duration="59" ref="easing_test/sprite" loc="49,404.25" pivot="-1,-3" ease="-1"/>
+      <kf duration="1" ref="easing_test/sprite" loc="299,403.95" pivot="-1,-3"/>
+    </layer>
+    <layer name="Layer 2 copy">
+      <kf duration="59" ref="easing_test/sprite" loc="49,330.3" pivot="-1,-3" ease="-0.6"/>
+      <kf duration="1" ref="easing_test/sprite" loc="299,330" pivot="-1,-3"/>
+    </layer>
+    <layer name="Layer 1 copy">
+      <kf duration="59" ref="easing_test/sprite" loc="49,259.3" pivot="-1,-3" ease="-0.01"/>
+      <kf duration="1" ref="easing_test/sprite" loc="299,259" pivot="-1,-3"/>
+    </layer>
+    <layer name="Layer 3">
+      <kf duration="59" ref="easing_test/sprite" loc="49,186.3" pivot="-1,-3" ease="0.01"/>
+      <kf duration="1" ref="easing_test/sprite" loc="299,186.3" pivot="-1,-3"/>
+    </layer>
+    <layer name="Layer 2">
+      <kf duration="59" ref="easing_test/sprite" loc="49,112.35" pivot="-1,-3" ease="0.6"/>
+      <kf duration="1" ref="easing_test/sprite" loc="299,112.35" pivot="-1,-3"/>
+    </layer>
+    <layer name="Layer 1">
+      <kf duration="59" ref="easing_test/sprite" loc="49,41.35" pivot="-1,-3" ease="1"/>
+      <kf duration="1" ref="easing_test/sprite" loc="299,41.35" pivot="-1,-3"/>
+    </layer>
+  </movie>
+  <textureGroups>
+    <textureGroup retina="false">
+      <atlas file="main/easing_test/atlas0.png">
+        <texture name="easing_test/sprite" rect="0,0,73,57" offset="-37.5,-31.5" md5="8f759bf97115cc206f1bc0c75f1342a2"/>
+      </atlas>
+    </textureGroup>
+    <textureGroup retina="true">
+      <atlas file="main/easing_test/atlas0@2x.png">
+        <texture name="easing_test/sprite" rect="0,0,146,114" offset="-75,-63" md5="8f759bf97115cc206f1bc0c75f1342a2"/>
+      </atlas>
+    </textureGroup>
+  </textureGroups>
+</resources>

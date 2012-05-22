@@ -1,0 +1,32 @@
+<resources md5="747586aa0b195ca8f0df320b4d464e55">
+  <movie name="skew_test/movie" md5="033a678cba45e8652dd4d63b2a22c562" frameRate="24">
+    <layer name="Layer 1">
+      <kf duration="25" ref="skew_test/Symbol1" loc="-3.621,-0.6512" scale="1.069,1" skew="0.5236,-2.618" pivot="6.45,6"/>
+      <kf duration="1" ref="skew_test/Symbol1" loc="-3.65,-0.65" pivot="6.5,6"/>
+    </layer>
+  </movie>
+  <movie name="skew_test/movie2" md5="2b60a1b8b936f1222e187f3822faf16b" frameRate="24">
+    <layer name="Layer 1">
+      <kf duration="35" ref="skew_test/Symbol1" loc="-23.653,12.3459" skew="0.5585,0" pivot="6.45,5.95"/>
+      <kf duration="1" ref="skew_test/Symbol1" loc="-23.6619,12.3419" skew="-0.8203,0" pivot="6.4,6"/>
+    </layer>
+  </movie>
+  <movie name="skew_test/movie3" md5="f69048c553a8a5e1a7342cf1a4d07c01" frameRate="24">
+    <layer name="Layer 1">
+      <kf duration="49" ref="skew_test/Symbol1" loc="73.35,0.35" pivot="6.5,6"/>
+      <kf duration="1" ref="skew_test/Symbol1" loc="72.5108,1.3572" skew="-2.2289,-2.2289" pivot="6.5,6.05"/>
+    </layer>
+  </movie>
+  <textureGroups>
+    <textureGroup retina="false">
+      <atlas file="main/skew_test/atlas0.png">
+        <texture name="skew_test/Symbol1" rect="0,0,146,65" offset="-66.5,-26.5" md5="1918caed7b3fcc560428b81f810a582a"/>
+      </atlas>
+    </textureGroup>
+    <textureGroup retina="true">
+      <atlas file="main/skew_test/atlas0@2x.png">
+        <texture name="skew_test/Symbol1" rect="0,0,292,130" offset="-133,-53" md5="1918caed7b3fcc560428b81f810a582a"/>
+      </atlas>
+    </textureGroup>
+  </textureGroups>
+</resources>

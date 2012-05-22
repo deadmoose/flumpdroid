@@ -1,0 +1,20 @@
+<resources md5="adddd84e0e61d9d91c8fb56324187596">
+  <movie name="mirror_test/movie" md5="cc0f386218bd68c075b6509a47ba8f7b" frameRate="24">
+    <layer name="Layer 1">
+      <kf duration="59" ref="mirror_test/sprite" loc="2.367,-4.65" scale="4.0976,1" skew="0,3.1416" pivot="27.5,-30.75"/>
+      <kf duration="1" ref="mirror_test/sprite" loc="2.3255,-4.65" scale="1.1463,1" skew="0,3.1416" pivot="27.5,-30.75"/>
+    </layer>
+  </movie>
+  <textureGroups>
+    <textureGroup retina="false">
+      <atlas file="main/mirror_test/atlas0.png">
+        <texture name="mirror_test/sprite" rect="0,0,82,97" offset="-13.5,-79" md5="b7c318d184b5b4665e5c2021a5fd5736"/>
+      </atlas>
+    </textureGroup>
+    <textureGroup retina="true">
+      <atlas file="main/mirror_test/atlas0@2x.png">
+        <texture name="mirror_test/sprite" rect="0,0,164,193" offset="-27,-158" md5="b7c318d184b5b4665e5c2021a5fd5736"/>
+      </atlas>
+    </textureGroup>
+  </textureGroups>
+</resources>
