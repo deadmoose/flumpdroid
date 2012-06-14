@@ -392,8 +392,10 @@ public class FlumpMoldRegistry extends Registry
     }
 
     protected static abstract class FlumpConverter<T> implements Converter<T> {
+        @Override
         abstract public T read (InputNode node) throws Exception;
 
+        @Override
         public void write (OutputNode node, T mold) throws Exception {
             throw new UnsupportedOperationException();
         }

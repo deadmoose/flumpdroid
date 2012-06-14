@@ -39,6 +39,7 @@ public class FlumpRenderer
         _scale = 1;
     }
 
+    @Override
     public void onDrawFrame (GL10 gl)
     {
         long stamp = System.currentTimeMillis();
@@ -90,6 +91,7 @@ public class FlumpRenderer
         gl.glOrthof(-_width/scale, _width/scale, -_height/scale, _height/scale, -1, 1);
     }
 
+    @Override
     public void onSurfaceChanged (GL10 gl, int width, int height)
     {
         bindTextures(gl);
@@ -102,6 +104,7 @@ public class FlumpRenderer
         updateViewport(gl);
     }
 
+    @Override
     public void onSurfaceCreated (GL10 gl, EGLConfig config)
     {
         gl.glClearColor(0.3f, 0.3f, 0.3f, 1);

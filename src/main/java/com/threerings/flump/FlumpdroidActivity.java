@@ -41,12 +41,14 @@ public class FlumpdroidActivity extends Activity
             adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
             _librarySpinner.setAdapter(adapter);
             _librarySpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+                @Override
                 public void onItemSelected (
                     AdapterView<?> parent, View view, int position, long id) {
                     setLibrary(movies[position]);
                 }
 
-                public void onNothingSelected(AdapterView<?> parent) {
+                @Override
+                public void onNothingSelected (AdapterView<?> parent) {
                     // Ack?
                 }
             });
@@ -57,12 +59,14 @@ public class FlumpdroidActivity extends Activity
             adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item);
             _movieSpinner.setAdapter(adapter);
             _movieSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+                @Override
                 public void onItemSelected (
                     AdapterView<?> parent, View view, int position, long id) {
 
                     setMovie((String)_movieSpinner.getAdapter().getItem(position));
                 }
 
+                @Override
                 public void onNothingSelected (AdapterView<?> parent) {
                     // Ack?
                 }
